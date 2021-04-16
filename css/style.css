@@ -1707,6 +1707,7 @@ header.header-appear .navbar-top-default .header-social a:hover {
 .team-image img, .team-image2 img {
     width: 100%;
     height:auto;
+    
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
@@ -1732,6 +1733,7 @@ header.header-appear .navbar-top-default .header-social a:hover {
 */
 .team-social {
     margin-bottom: 5px;
+  
 }
 .team-social li{
     list-style: none;
@@ -1748,10 +1750,27 @@ header.header-appear .navbar-top-default .header-social a:hover {
 }
 .team-classic-content {
     padding: 49px 20px;
-    background: #fff;
+    background-image: url("https://megaone.acrothemes.com/creative-studio/img/team2.jpg");
     -webkit-box-shadow: 0 10px 5px -10px #b7b7b7;
     box-shadow: 0 10px 5px -10px #b7b7b7;
     text-align: center;
+    
+}
+
+.bg1{
+    background-image: url("https://megaone.acrothemes.com/creative-studio/img/team1.jpg");
+}
+
+.bg4{
+    background-image: url("https://megaone.acrothemes.com/creative-studio/img/team3.jpg");
+}
+
+.bg5{
+    background-image: url("https://megaone.acrothemes.com/creative-studio/img/team4.jpg");
+}
+
+.hide{
+    visibility: hidden;
 }
 .team-classic-content.pink:before {
     background: #e57bff;
@@ -1762,6 +1781,10 @@ header.header-appear .navbar-top-default .header-social a:hover {
 .team-classic-content.blue:before {
     background: #84a1d2;
 }
+.team-classic-content.red:before {
+    background: #b4210e;
+}
+
 /*Hover for team1 and team 3*/
 .hvr-team {
     display: inline-block;
@@ -1802,6 +1825,7 @@ header.header-appear .navbar-top-default .header-social a:hover {
 .team-col:hover h3,.team-col:hover h5,.team-col:hover p,.team-col:hover a,
 .team-col2:hover h3,.team-col2:hover h5,.team-col2:hover p,.team-col2:hover a {
     color: #ffffff;
+    visibility: visible;
 }
 
 .hvr-team:hover, .hvr-team:focus, .hvr-team:active {
@@ -3455,3 +3479,4 @@ ul.rounded li::before {
         width: 370px;
     }
 }
+
