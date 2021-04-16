@@ -1962,6 +1962,9 @@ ul.social_icon li a.google:focus {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+.img{
+    padding: 6px;
+}
 .cbp-l-filters-alignCenter {
     margin-bottom: 40px;
 }
@@ -1986,7 +1989,7 @@ ul.social_icon li a.google:focus {
     bottom: 5%;
     visibility: hidden;
     z-index: 1;
-    background: rgba(255, 255, 255, 0.88);
+    background: rgba(255, 255, 255, 0.10);
     -webkit-transition: all 0.4s cubic-bezier(0.57, 0.21, 0.69, 1.25);
     transition: all 0.4s cubic-bezier(0.57, 0.21, 0.69, 1.25);
 }
@@ -2007,6 +2010,7 @@ ul.social_icon li a.google:focus {
 }
 .cbp-l-grid-mosaic-flat .cbp-caption-activeWrap p {
     position: absolute;
+
     left: 20px;
     bottom: 65px;
     color: #212622;
@@ -2044,7 +2048,7 @@ ul.social_icon li a.google:focus {
     line-height: 40px;
     border-radius: 50%;
     border: 1px solid #f1c30f;
-    background: #f1c30f;
+    background: #ecc420;
     text-align: center;
     font-size: 20px;
     color: #ffffff;
@@ -2072,6 +2076,7 @@ ul.social_icon li a.google:focus {
     -webkit-transition-delay: .3s; transition-delay: .3s;
 }
 .cbp-caption-zoom .cbp-caption:hover .cbp-caption-defaultWrap {
+    
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
