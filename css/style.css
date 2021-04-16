@@ -157,7 +157,7 @@ i::before, i::after {
 .no-transition *{transition-timing-function:initial; -moz-transition-timing-function:initial; -webkit-transition-timing-function:initial; -o-transition-timing-function:initial; -ms-transition-timing-function:initial; transition-duration: 0s; -moz-transition-duration: 0s; -webkit-transition-duration: 0s; -o-transition-duration: 0s; -ms-transition-duration: 0s;}
 .no-animation {animation: none !important;}
 .no-transform {transform: none !important;}
-::-webkit-scrollbar-track {background-color: #e9edf0;border-left: 1px solid #ededed;}
+::-webkit-scrollbar-track {background-color: rgb(27, 30, 31);}
 ::-webkit-scrollbar {width: 7px;background-color: #f1c30f;}
 ::-webkit-scrollbar-thumb {background:#f1c30f;}
 
@@ -1981,7 +1981,7 @@ ul.social_icon li a.google:focus {
     border-top: 4px solid #f1c30f;
 }
 .cbp-l-filters-alignCenter .cbp-filter-item {
-    color: #212622;
+    color: rgb(210, 206, 200);
     font: 600 14px/20px "Open Sans", sans-serif;
     margin: 0 10px 10px;
 }
@@ -2233,7 +2233,8 @@ ul.social_icon li a.google:focus {
     background: #fff;
     border-radius: 10px;
     padding: 30px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    background-color: rgb(24, 26, 27);
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 30px;
     max-width: 505px;
 }
 .testimonial-post {
