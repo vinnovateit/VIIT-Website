@@ -1279,10 +1279,8 @@ nav .btn-setting {
     color: #f1c30f;
     text-shadow: 10px 0 #84a1d2, -10px 0 #e57bff;
 }
-
-.nav-three-circles .navbar-nav .nav-item .nav-link:hover,
-.nav-three-circles .navbar-nav .nav-item .nav-link.active {
-    color: #e57bff;
+.nav-three-circles .navbar-nav .nav-item .nav-link:hover,.nav-three-circles .navbar-nav .nav-item .nav-link.active {
+    color: hsl(241, 82%, 51%);
 }
 
 .black.navbar-top-default .navbar-nav .nav-link {
@@ -1290,7 +1288,7 @@ nav .btn-setting {
 }
 
 .navbar-top-default .navbar-nav .nav-link:hover {
-    color: #f1c30f;
+    color: #f57e10;
 }
 
 .header-appear .navbar-top-default {
@@ -1452,7 +1450,7 @@ header.header-appear .navbar-top-default .header-social a:hover {
     position: fixed;
     right: 0;
     top: 0;
-    background: #f1c30f;
+    background: hsl(44, 91%, 46%);
     z-index: 1032;
     height: 100%;
     -webkit-transform: translate3d(100%, 0, 0);
@@ -1740,7 +1738,7 @@ header.header-appear .navbar-top-default .header-social a:hover {
     width: 100%;
     position: fixed;
     bottom: 0;
-    background: #f1c30f;
+    background: hsl(24, 96%, 50%);
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
     overflow-x: hidden;
