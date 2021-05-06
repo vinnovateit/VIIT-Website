@@ -556,8 +556,8 @@ a.image {
 .bg-yellow, .hvr-bg-yellow:hover {
     background-color: rgb(192, 155, 11);
 }
-.bg-pink, .hvr-bg-pink:hover  {
-    background-color: rgb(105, 0, 130);
+.bg-red, .hvr-bg-red:hover  {
+    background-color: rgb(190, 65, 65);
 }
 .bg-blue, .hvr-bg-blue:hover {
     background-color: rgb(41, 67, 111);
@@ -2721,6 +2721,7 @@ ul.social_icon li a.google:focus {
 
 .price-box {
     padding-bottom: 10px;
+    min-height: 300px;
 }
 
 .price-box2 {
