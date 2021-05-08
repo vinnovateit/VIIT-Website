@@ -40,6 +40,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap');
+
 .font-primary {
     font-family: 'Montserrat', sans-serif;
 }
@@ -2342,6 +2344,7 @@ header.header-appear .navbar-top-default .header-social a:hover {
 
 .team-social {
     margin-bottom: 5px;
+  
 }
 
 .team-social li {
@@ -2361,10 +2364,27 @@ header.header-appear .navbar-top-default .header-social a:hover {
 
 .team-classic-content {
     padding: 49px 20px;
-    background: #fff;
+    background-image: url("https://megaone.acrothemes.com/creative-studio/img/team2.jpg");
     -webkit-box-shadow: 0 10px 5px -10px #b7b7b7;
     box-shadow: 0 10px 5px -10px #b7b7b7;
     text-align: center;
+    
+}
+
+.bg1{
+    background-image: url("https://megaone.acrothemes.com/creative-studio/img/team1.jpg");
+}
+
+.bg4{
+    background-image: url("https://megaone.acrothemes.com/creative-studio/img/team3.jpg");
+}
+
+.bg5{
+    background-image: url("https://megaone.acrothemes.com/creative-studio/img/team4.jpg");
+}
+
+.hide{
+    visibility: hidden;
 }
 
 .team-classic-content.pink:before {
@@ -2378,7 +2398,9 @@ header.header-appear .navbar-top-default .header-social a:hover {
 .team-classic-content.blue:before {
     background: #84a1d2;
 }
-
+.team-classic-content.red:before {
+    background: #b4210e;
+}
 
 /*Hover for team1 and team 3*/
 
@@ -2429,6 +2451,7 @@ header.header-appear .navbar-top-default .header-social a:hover {
 .team-col2:hover p,
 .team-col2:hover a {
     color: #ffffff;
+    visibility: visible;
 }
 
 .hvr-team:hover,
@@ -2764,7 +2787,7 @@ ul.social_icon li a.google:focus {
     Pricing Starts
 ====================================== */
 
-.pricing-padding {
+/* .pricing-padding {
     padding: 7.5rem 0 4rem;
 }
 
@@ -2934,7 +2957,7 @@ ul.social_icon li a.google:focus {
 .pricing-item:hover .btn-blue {
     background: transparent;
     border-color: #ffffff;
-}
+} */
 
 
 /* ===================================
@@ -4466,3 +4489,197 @@ ul.rounded li::before {
         width: 370px;
     }
 }
+
+
+/* Events */
+
+*, ::before, ::after { box-sizing: border-box }
+:root { --d: 600ms; --e: cubic-bezier(0.19, 1, 0.22, 1) }
+
+
+
+
+
+
+
+.card {
+	display: flex;
+	align-items: flex-end;
+	overflow: hidden;
+	position: relative;
+    height: 400px;
+    width: 300px;
+    border: #190db6;
+    
+    
+}
+
+.shadow-red{
+    box-shadow: 5px 10px #ff3b3b88;
+}
+.shadow-yellow{
+    box-shadow: 5px 10px #f3e30988;
+}
+.shadow-blue{
+    box-shadow: 5px 10px #3b4fff88;
+}
+
+.card .content {
+	display: block;
+	transform: translateY(50%);
+	position: relative;
+	top: -20%;
+	transition: top var(--d) var(--e), transform var(--d) var(--e);
+	z-index: 1;
+}
+
+.card:not(:hover):not(:focus) .content {
+	top: 0%;
+	transform: translateY(100%);
+}
+
+.card .heading1,.card .heading2,.card .heading3{
+	display: block;
+	transition: transform var(--d) var(--e);
+    
+}
+
+.card:not(:hover):not(:focus) .heading1 {
+	transform: translateY(-80%);
+    position: absolute;
+    top: 80%;
+    
+    
+    background-color:rgb(236, 65, 65);
+    width: 100%;
+}
+
+.card:not(:hover):not(:focus) .heading2 {
+	transform: translateY(-80%);
+    position: absolute;
+    top: 80%;
+    
+    background-color: #FDC62C;
+    width: 100%;
+}
+
+.card:not(:hover):not(:focus) .heading3 {
+	transform: translateY(-80%);
+    position: absolute;
+    top: 80%;
+    
+    background-color: rgb(19, 156, 235);
+    width: 100%;
+}
+
+.card .summary {
+	display: block;
+}
+
+
+.events{
+	
+	
+	min-height: 24em;
+	max-width: 64em;
+    margin-left: 3.5vw;
+    
+    
+}
+
+.card {
+	background: #000;
+	
+	color: #f5f5f5;
+	text-decoration: none;
+    margin-right: 20px;
+   
+}
+
+.card::before, .card::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transition: transform calc(var(--d) * 1.5) var(--e);
+}
+
+.card::before {
+	content: "";
+	display: block;
+	position: absolute;
+	height: 110%;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transform: translateY(-4%);
+}
+
+.card:nth-child(1)::before {
+	background-image: url("https://vinnovateit.com/images/vinhack.jpg");
+}
+
+.card:nth-child(2)::before {
+	background-image: url("https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+}
+
+.card::nth-child(3)::before {
+	background-image: url("https://images.unsplash.com/photo-1545243424-0ce743321e11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+}
+
+.card::nth-child(4)::before {
+	background-image: url("https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+}
+
+.card:not(:hover)::before {
+	transform: translateY(0%);
+}
+
+.card::after {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+	content: "";
+	display: block;
+	height: 200%;
+	transform: translateY(-50%);
+}
+
+.card:not(:hover):not(:focus)::after {
+	transform: translateY(0%);
+}
+
+.card .heading1,.card .heading2,.card .heading3 {
+	font-size: calc(1em * (20 / 16));
+	line-height: calc(24 / 20);
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif ;
+	padding: calc(1em * (16 / 20));
+	text-align: center;
+}
+
+.card .summary {
+	font-size: calc(1em * (18 / 16));
+	
+	font-family: 'Source Sans Pro', sans-serif;
+
+	line-height: calc(24 / 18);
+	padding: calc(1em * (16 / 18));
+	padding-top: 0;
+	text-align: center;
+	opacity: 1;
+	transition: opacity calc(var(--d) * 3) var(--e);
+}
+
+.card:not(:hover):not(:focus) .summary {
+	opacity: 0;
+}
+
+.summary,.heading1,.heading2,.heading3{
+    color: white;
+    
+}
+
+
+
+
+
+
