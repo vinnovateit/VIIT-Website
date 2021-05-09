@@ -1109,6 +1109,21 @@ nav .btn-setting {
     Header & Navigation
 ====================================== */
 
+.logobg {
+    
+    
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+    .sm {
+        display: block;
+    }
+}
+
 
 /* menu bars */
 
