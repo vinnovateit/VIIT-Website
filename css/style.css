@@ -2472,8 +2472,20 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 
 .team-col,
 .team-col2 {
-    max-width: 300px;
+    max-width: 400px;
+    
+    
 }
+
+
+@media screen and (max-width: 480px) {
+    .team-col,
+.team-col2  {
+        margin-left: 20px;
+    }
+}
+
+
 
 .team-col:hover h3,
 .team-col:hover h5,
@@ -4542,7 +4554,7 @@ ul.rounded li::before {
 	position: relative;
     height: 400px;
     width: 300px;
-    border: #190db6;
+    border: none !important;
     
     
 }
