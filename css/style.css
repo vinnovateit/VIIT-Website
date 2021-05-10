@@ -1281,6 +1281,15 @@ nav .btn-setting {
 }
 
 
+@media screen and (max-width: 480px) {
+    .logo-default,.logo-scrolled{
+         height: 40%;
+         width: 70%;
+    }
+}
+
+
+
 /* nav top default */
 
 .navbar-top-default {
@@ -2315,23 +2324,23 @@ div.tab-frame input:nth-of-type(2):checked ~ .tab:nth-of-type(2),
 div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;}
 
 .mar{
-    margin-left: 24.5vw !important;
+    margin-left: 370px !important;
 }
 
 .w3-animate-opacity{animation:opac 1.5s}@keyframes opac{from{opacity:0} to{opacity:1}}
 
 @media screen and (max-width: 480px) {
     .mar {
-        margin-left: 12vw !important;
+        margin-left: 4vw !important;
         
     }
 
     label{
-        font-size: 4vw;
+        font-size: 3.5vw;
         
     }
     .mar2{
-        margin-left: 26vw;
+        
     }
 }
 
