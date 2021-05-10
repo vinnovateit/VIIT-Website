@@ -1281,6 +1281,15 @@ nav .btn-setting {
 }
 
 
+@media screen and (max-width: 480px) {
+    .logo-default,.logo-scrolled{
+         height: 40%;
+         width: 70%;
+    }
+}
+
+
+
 /* nav top default */
 
 .navbar-top-default {
@@ -2315,21 +2324,23 @@ div.tab-frame input:nth-of-type(2):checked ~ .tab:nth-of-type(2),
 div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;}
 
 .mar{
-    margin-left: 24vw !important;
+    margin-left: 370px !important;
 }
+
+.w3-animate-opacity{animation:opac 1.5s}@keyframes opac{from{opacity:0} to{opacity:1}}
 
 @media screen and (max-width: 480px) {
     .mar {
-        margin-left: 12vw !important;
+        margin-left: 4vw !important;
         
     }
 
     label{
-        font-size: 4vw;
+        font-size: 3.5vw;
         
     }
     .mar2{
-        margin-left: 26vw;
+        
     }
 }
 
@@ -2412,24 +2423,142 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 
 .team-classic-content {
     padding: 49px 20px;
-    background-image: url("https://megaone.acrothemes.com/creative-studio/img/team2.jpg");
+    
     -webkit-box-shadow: 0 10px 5px -10px #b7b7b7;
     box-shadow: 0 10px 5px -10px #b7b7b7;
     text-align: center;
     
 }
 
-.bg1{
-    background-image: url("https://megaone.acrothemes.com/creative-studio/img/team1.jpg");
+.ayush{
+    background-image: url("/img/ayushbansal@2x\ _2.png");
+
+    
 }
 
-.bg4{
-    background-image: url("https://megaone.acrothemes.com/creative-studio/img/team3.jpg");
+.sriesh{
+    background-image: url("/img/srieshagrawal@2x.png");
 }
 
-.bg5{
-    background-image: url("https://megaone.acrothemes.com/creative-studio/img/team4.jpg");
+.saransh{
+    background-image: url("/img/saranshbhachawat@2x.png");
+    
 }
+.sankar{
+    background-image: url("/img/sankarkvs@2x.png");
+}
+
+.ritik{
+    background-image: url("/img/ritikkumar@2x.png");
+}
+
+.aayush{
+    background-image: url("/img/aayushchodvadiya@2x.png");
+}
+
+.akash{
+    background-image: url("/img/akashshukla.png");
+}
+
+.shivam{
+    background-image: url("/img/shivamchokhani.png");
+}
+
+.eashwar{
+    background-image: url("/img/eashwarshriram@2x.png");
+}
+.sanskriti{
+    background-image: url("/img/sanskritinegi@2x.png");
+}
+
+.dhruv{
+    background-image: url("/img/dhruvvaidh@2x.png");
+}
+
+.sejal{
+    background-image: url("/img/sejalbharthi@2x.png");
+}
+.muskan{
+    background-image: url("/img/muskanagarwal.png");
+}
+
+.dishit{
+    background-image: url("/img/dishitduggar@2x.png");
+}
+
+.akashg{
+    background-image: url("/img/akashgupta.png");
+}
+.prajjwal{
+    background-image: url("/img/prajjwalgupta@2x.png");
+}
+
+
+/* ex-board */
+.kshitij{
+    background-image: url("/img/kshitij-dhyani.jpg");
+}
+
+.arpit{
+    background-image: url("/img/arpit.jpeg");
+}
+
+.nitin{
+    background-image: url("/img/nitin.jpeg");
+}
+.muskant{
+    background-image: url("/img/muskan-t.jpeg");
+}
+
+.muskans{
+    background-image: url("/img/muskan-s.jpeg");
+}
+
+.nisarga{
+    background-image: url("/img/nisarga.jpeg");
+}
+.riitk{
+    background-image: url("/img/ritik.jpeg");
+}
+
+.sameer{
+    background-image: url("/img/sammy.jpeg");
+}
+
+.karan{
+    background-image: url("/img/karan.jpeg");
+}
+
+/* advisory */
+.sachin{
+    background-image: url("/img/sachin-hiriyanna.jpg");
+}
+
+.sulabh{
+    background-image: url("/img/sulabh-agarwal.jpg");
+}
+
+.meet{
+    background-image: url("/img/meet-shukla.jpg");
+}
+.shreya{
+    background-image: url("/img/shreya-anand.png");
+}
+
+.apoorv{
+    background-image: url("/img/apoorv-bandi.jpg");
+}
+
+.vinit{
+    background-image: url("/img/vinit-shahdeo.jpg");
+}
+
+.mid{
+    margin-right: 20vw;
+}
+
+
+
 
 .hide{
     visibility: hidden;
@@ -2487,7 +2616,8 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 
 .team-col,
 .team-col2 {
-    max-width: 400px;
+    width: 285x;
+    height: 285px;
     
     
 }
