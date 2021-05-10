@@ -2339,9 +2339,7 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
         font-size: 3.5vw;
         
     }
-    .mar2{
-        
-    }
+    
 }
 
 .diamond{
@@ -2432,125 +2430,155 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 
 .ayush{
     background-image: url("/img/ayushbansal@2x\ _2.png");
+    background-position: 50% 35%;
 
     
 }
 
 .sriesh{
     background-image: url("/img/srieshagrawal@2x.png");
+    background-position: 50% 35%;
 }
 
 .saransh{
     background-image: url("/img/saranshbhachawat@2x.png");
-    
+    background-position: 50% 35%;
 }
 .sankar{
     background-image: url("/img/sankarkvs@2x.png");
+    background-position: 50% 35%;
 }
 
 .ritik{
     background-image: url("/img/ritikkumar@2x.png");
+    background-position: 50% 35%;
 }
 
 .aayush{
     background-image: url("/img/aayushchodvadiya@2x.png");
+    background-position: 50% 35%;
 }
 
 .akash{
     background-image: url("/img/akashshukla.png");
+    background-position: 50% 35%;
 }
 
 .shivam{
     background-image: url("/img/shivamchokhani.png");
+    background-position: 50% 35%;
 }
 
 .eashwar{
     background-image: url("/img/eashwarshriram@2x.png");
+    background-position: 50% 35%;
 }
 .sanskriti{
     background-image: url("/img/sanskritinegi@2x.png");
+    background-position: 50% 35%;
 }
 
 .dhruv{
     background-image: url("/img/dhruvvaidh@2x.png");
+    background-position: 50% 35%;
 }
 
 .sejal{
     background-image: url("/img/sejalbharthi@2x.png");
+    background-position: 50% 35%;
 }
 .muskan{
     background-image: url("/img/muskanagarwal.png");
+    background-position: 50% 35%;
 }
 
 .dishit{
     background-image: url("/img/dishitduggar@2x.png");
+    background-position: 50% 35%;
 }
 
 .akashg{
     background-image: url("/img/akashgupta.png");
+    background-position: 50% 35%;
 }
 .prajjwal{
     background-image: url("/img/prajjwalgupta@2x.png");
+    background-position: 50% 35%;
 }
 
 
 /* ex-board */
 .kshitij{
     background-image: url("/img/kshitij-dhyani.jpg");
+    background-position: 50% 35%;
 }
 
 .arpit{
     background-image: url("/img/arpit.jpeg");
+    background-position: 50% 35%;
 }
 
 .nitin{
     background-image: url("/img/nitin.jpeg");
+    background-position: 90% 35%;
 }
 .muskant{
     background-image: url("/img/muskan-t.jpeg");
+    background-position: 50% 35%;
 }
 
 .muskans{
     background-image: url("/img/muskan-s.jpeg");
+    background-position: 50% 35%;
 }
 
 .nisarga{
     background-image: url("/img/nisarga.jpeg");
+    background-position: 50% 35%;
 }
 .riitk{
     background-image: url("/img/ritik.jpeg");
+    background-position: 50% 35%;
 }
 
 .sameer{
     background-image: url("/img/sammy.jpeg");
+    background-position: 50% 35%;
 }
 
 .karan{
     background-image: url("/img/karan.jpeg");
+    background-position: 50% 35%;
 }
 
 /* advisory */
 .sachin{
     background-image: url("/img/sachin-hiriyanna.jpg");
+    background-position: 50% 35%;
 }
 
 .sulabh{
     background-image: url("/img/sulabh-agarwal.jpg");
+    background-position: 50% 35%;
 }
 
 .meet{
     background-image: url("/img/meet-shukla.jpg");
+    background-position: 50% 35%;
 }
 .shreya{
     background-image: url("/img/shreya-anand.png");
+    background-position: 50% 35%;
 }
 
 .apoorv{
     background-image: url("/img/apoorv-bandi.jpg");
+    background-position: 50% 35%;
 }
 
 .vinit{
     background-image: url("/img/vinit-shahdeo.jpg");
+    background-position: 50% 35%;
 }
 
 .mid{
