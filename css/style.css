@@ -2315,8 +2315,10 @@ div.tab-frame input:nth-of-type(2):checked ~ .tab:nth-of-type(2),
 div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;}
 
 .mar{
-    margin-left: 24vw !important;
+    margin-left: 25vw !important;
 }
+
+.w3-animate-opacity{animation:opac 1.5s}@keyframes opac{from{opacity:0} to{opacity:1}}
 
 @media screen and (max-width: 480px) {
     .mar {
