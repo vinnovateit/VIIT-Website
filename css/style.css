@@ -2438,6 +2438,7 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 .ayush{
     background-image: url("/img/ayushbansal@2x\ _2.png");
     background-position: 50% 35%;
+    height: 285px;
 
     
 }
@@ -2445,72 +2446,87 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 .sriesh{
     background-image: url("/img/srieshagrawal@2x.png");
     background-position: 50% 35%;
+    height: 285px;
 }
 
 .saransh{
     background-image: url("/img/saranshbhachawat@2x.png");
     background-position: 50% 35%;
+    height: 285px;
 }
 .sankar{
     background-image: url("/img/sankarkvs@2x.png");
     background-position: 50% 35%;
+    height: 285px;
 }
 
 .ritik{
     background-image: url("/img/ritikkumar@2x.png");
     background-position: 50% 35%;
+    height: 285px;
 }
 
 .aayush{
     background-image: url("/img/aayushchodvadiya@2x.png");
     background-position: 50% 35%;
+    height: 285px;
 }
 
 .akash{
     background-image: url("/img/akashshukla.png");
-    background-position: 50% 35%;
+    background-position: 30% 50%;
+    height: 285px;
 }
 
 .shivam{
     background-image: url("/img/shivamchokhani.png");
     background-position: 50% 35%;
+    height: 285px;
 }
 
 .eashwar{
     background-image: url("/img/eashwarshriram@2x.png");
     background-position: 50% 35%;
+    height: 285px;
 }
 .sanskriti{
     background-image: url("/img/sanskritinegi@2x.png");
     background-position: 50% 35%;
+    height: 285px;
 }
 
 .dhruv{
     background-image: url("/img/dhruvvaidh@2x.png");
-    background-position: 50% 35%;
+    background-position: 50% 45%;
+    height: 285px;
 }
 
 .sejal{
     background-image: url("/img/sejalbharthi@2x.png");
     background-position: 50% 35%;
+    height: 285px;
 }
 .muskan{
     background-image: url("/img/muskanagarwal.png");
     background-position: 50% 35%;
+    height: 285px;
 }
 
 .dishit{
     background-image: url("/img/dishitduggar@2x.png");
-    background-position: 50% 35%;
+    background-position: -30% 35%;
+    height: 285px;
 }
 
 .akashg{
     background-image: url("/img/akashgupta.png");
     background-position: 50% 35%;
+    height: 285px;
 }
 .prajjwal{
     background-image: url("/img/prajjwalgupta@2x.png");
     background-position: 50% 35%;
+    height: 285px;
 }
 
 
