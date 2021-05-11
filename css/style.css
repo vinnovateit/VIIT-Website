@@ -1107,6 +1107,10 @@ nav .btn-setting {
     color: #BD081C !important;
 }
 
+.pinterest-text-hvr:hover {
+    color: #000000 !important;
+}
+
 .google-text-hvr:hover {
     color: #DB4437 !important;
 }
@@ -1290,8 +1294,9 @@ nav .btn-setting {
 
 @media screen and (max-width: 480px) {
     .logo-default,.logo-scrolled{
-         height: 40%;
-         width: 70%;
+         height: 20%;
+         width: 55%;
+         margin-left: 0px !important;
     }
 }
 
@@ -2304,6 +2309,7 @@ header.header-appear .navbar-top-default .header-social a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 40px;
     max-width: 350px;
+   
 }
 
 .about-box i {
@@ -2439,6 +2445,8 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
     background-image: url("/img/ayushbansal@2x\ _2.png");
     background-position: 50% 35%;
     height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     
 }
@@ -2447,86 +2455,116 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
     background-image: url("/img/srieshagrawal@2x.png");
     background-position: 50% 35%;
     height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .saransh{
     background-image: url("/img/saranshbhachawat@2x.png");
     background-position: 50% 35%;
     height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .sankar{
     background-image: url("/img/sankarkvs@2x.png");
     background-position: 50% 35%;
     height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .ritik{
     background-image: url("/img/ritikkumar@2x.png");
     background-position: 50% 35%;
     height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .aayush{
     background-image: url("/img/aayushchodvadiya@2x.png");
     background-position: 50% 35%;
     height: 285px;
+    background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .akash{
     background-image: url("/img/akashshukla.png");
     background-position: 30% 50%;
     height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .shivam{
     background-image: url("/img/shivamchokhani.png");
     background-position: 50% 35%;
     height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .eashwar{
     background-image: url("/img/eashwarshriram@2x.png");
     background-position: 50% 35%;
     height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .sanskriti{
     background-image: url("/img/sanskritinegi@2x.png");
     background-position: 50% 35%;
     height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .dhruv{
     background-image: url("/img/dhruvvaidh@2x.png");
     background-position: 50% 45%;
     height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sejal{
     background-image: url("/img/sejalbharthi@2x.png");
     background-position: 50% 35%;
     height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .muskan{
     background-image: url("/img/muskanagarwal.png");
     background-position: 50% 35%;
     height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .dishit{
     background-image: url("/img/dishitduggar@2x.png");
     background-position: -30% 35%;
     height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .akashg{
     background-image: url("/img/akashgupta.png");
     background-position: 50% 35%;
     height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .prajjwal{
     background-image: url("/img/prajjwalgupta@2x.png");
     background-position: 50% 35%;
     height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -2534,74 +2572,89 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 .kshitij{
     background-image: url("/img/kshitij-dhyani.jpg");
     background-position: 50% 35%;
+    background-repeat: no-repeat;
 }
 
 .arpit{
     background-image: url("/img/arpit.jpeg");
     background-position: 50% 35%;
+    background-repeat: no-repeat;
 }
 
 .nitin{
     background-image: url("/img/nitin.jpeg");
     background-position: 90% 35%;
+    background-repeat: no-repeat;
 }
 .muskant{
     background-image: url("/img/muskan-t.jpeg");
     background-position: 50% 35%;
+    background-repeat: no-repeat;
 }
 
 .muskans{
     background-image: url("/img/muskan-s.jpeg");
     background-position: 50% 35%;
+    background-repeat: no-repeat;
 }
 
 .nisarga{
     background-image: url("/img/nisarga.jpeg");
     background-position: 50% 35%;
+    background-repeat: no-repeat;
 }
 .riitk{
     background-image: url("/img/ritik.jpeg");
     background-position: 50% 35%;
+    background-repeat: no-repeat;
 }
 
 .sameer{
     background-image: url("/img/sammy.jpeg");
     background-position: 50% 35%;
+    background-repeat: no-repeat;
 }
 
 .karan{
     background-image: url("/img/karan.jpeg");
     background-position: 50% 35%;
+    background-repeat: no-repeat;
 }
 
 /* advisory */
 .sachin{
     background-image: url("/img/sachin-hiriyanna.jpg");
     background-position: 50% 35%;
+    background-repeat: no-repeat;
 }
 
 .sulabh{
     background-image: url("/img/sulabh-agarwal.jpg");
     background-position: 50% 35%;
+    background-repeat: no-repeat;
 }
 
 .meet{
     background-image: url("/img/meet-shukla.jpg");
     background-position: 50% 35%;
+    background-repeat: no-repeat;
 }
 .shreya{
     background-image: url("/img/shreya-anand.png");
     background-position: 50% 35%;
+    background-repeat: no-repeat;
 }
 
 .apoorv{
     background-image: url("/img/apoorv-bandi.jpg");
     background-position: 50% 35%;
+    background-repeat: no-repeat;
 }
 
 .vinit{
     background-image: url("/img/vinit-shahdeo.jpg");
     background-position: 50% 35%;
+    background-repeat: no-repeat;
 }
 
 .mid{
@@ -4841,14 +4894,21 @@ ul.rounded li::before {
 	
 	min-height: 24em;
 	max-width: 64em;
-    margin-left: 17vw !important;
+    margin-left: 16vw !important;
+    
     
     
 }
 
+.head-mar{
+    margin-left: 18vw;
+}
+
+
+
 @media screen and (max-width: 480px) {
     .events {
-       margin-left: 10% !important;
+       margin-left: 7vw !important;
     }
 
     .head-mar{
