@@ -4949,11 +4949,20 @@ ul.rounded li::before {
 	transform: translateY(-4%);
 }
 
-.card:nth-child(1)::before {
-	background-image: url("https://vinnovateit.com/images/vinhack.jpg");
+.card-1{
+	background-image: url("../img/vincode.jpeg");
+    background-size: cover;
 }
 
-.card:nth-child(2)::before {
+.card-2{
+	background-image: url("../img/vinprep.JPG");
+    background-size: cover;
+}
+.card-3{
+	background-image: url("https://vinnovateit.com/images/vinhack.jpg");
+
+}
+/* .card:nth-child(2)::before {
 	background-image: url("https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
 }
 
@@ -4963,7 +4972,7 @@ ul.rounded li::before {
 
 .card::nth-child(4)::before {
 	background-image: url("https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
-}
+} */
 
 .card:not(:hover)::before {
 	transform: translateY(0%);
