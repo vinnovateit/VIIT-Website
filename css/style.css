@@ -4868,6 +4868,8 @@ ul.rounded li::before {
 	z-index: 1;
 }
 
+
+
 .card:not(:hover):not(:focus) .content {
 	top: 0%;
 	transform: translateY(100%);
@@ -4950,6 +4952,10 @@ ul.rounded li::before {
         justify-content: center;
         margin-left:  22px;
         
+    }
+
+    .card .content{
+        transform: translateY(30%);
     }
 }
 
