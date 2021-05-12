@@ -3722,8 +3722,8 @@ footer.bg-black2 {
     box-shadow: 0 0 15px 30px #1DA1F2 inset;
 }
 
-.footer-icons li a.google:hover,
-.footer-icons li a.google:focus {
+.footer-icons li a.envelope:hover,
+.footer-icons li a.envelope:focus {
     -webkit-box-shadow: 0 0 15px 30px #DB4437 inset;
     box-shadow: 0 0 15px 30px #DB4437 inset;
 }
