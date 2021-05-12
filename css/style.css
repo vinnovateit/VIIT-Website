@@ -4926,7 +4926,7 @@ ul.rounded li::before {
 }
 
 .head-mar{
-    margin-left: 18vw;
+    margin: 0 a;
 }
 
 
@@ -4938,7 +4938,7 @@ ul.rounded li::before {
     }
 
     .head-mar{
-        margin-left: 10% !important;
+        margin-left: 4vw !important;
     }
 
     .card{
