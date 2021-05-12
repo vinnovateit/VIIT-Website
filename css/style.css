@@ -114,6 +114,10 @@ h2 {
     font-size: 2.5rem;
 }
 
+.github-bg-hvr{
+
+}
+
 p {
     margin: 0;
     padding: 0;
@@ -1076,6 +1080,12 @@ nav .btn-setting {
     border: 1px solid transparent !important;
 }
 
+.github-bg-hvr:hover{
+    background: #000000 !important;
+    color: #fff !important;
+    border: 1px solid transparent !important;
+
+}
 
 
 .google-bg-hvr:hover {
@@ -2263,6 +2273,8 @@ header.header-appear .navbar-top-default .header-social a:hover {
     position: relative;
 }
 
+
+
 .about-img-small {
     margin-left: 30px;
     top: -155px;
@@ -2352,6 +2364,10 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
         font-size: 3.5vw;
         
     }
+
+    .body-mar{
+        padding-left: 2rem;
+    }
     
 }
 
@@ -2433,7 +2449,7 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 }
 
 .team-classic-content {
-    padding: 49px 20px;
+    padding: 49px 10px;
     
     -webkit-box-shadow: 0 10px 5px -10px #b7b7b7;
     box-shadow: 0 10px 5px -10px #b7b7b7;
@@ -2447,9 +2463,13 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
+    
 
     
 }
+
+
+
 
 .sriesh{
     background-image: url("/img/srieshagrawal@2x.png");
@@ -2727,13 +2747,14 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
     
 }
 
-
-@media screen and (max-width: 480px) {
-    .team-col,
-.team-col2  {
-        margin-left: 20px;
+/* @media screen and (max-width: 480px) {
+    .ayush,.team-col2,.team-col,.col-lg-6,.col-xl-3,.col-sm-12,.p-0,.row,.w3-animate-opacity  {
+        width: 350px;
     }
-}
+    
+} */
+
+
 
 
 
@@ -3732,6 +3753,8 @@ ul.social_icon li a.google:focus {
     width: 25.7rem;
     align-self: center;
 }
+
+
 
 
 /* ===================================
@@ -4801,6 +4824,8 @@ ul.rounded li::before {
 
 /* Events */
 
+/* Events */
+
 *, ::before, ::after { box-sizing: border-box }
 :root { --d: 600ms; --e: cubic-bezier(0.19, 1, 0.22, 1) }
 
@@ -4900,9 +4925,7 @@ ul.rounded li::before {
     
 }
 
-.head-mar{
-    margin-left: 18vw;
-}
+
 
 
 
@@ -4913,7 +4936,7 @@ ul.rounded li::before {
     }
 
     .head-mar{
-        margin-left: 10% !important;
+        margin-left: 5vw !important;
     }
 
     .card{
@@ -4965,11 +4988,9 @@ ul.rounded li::before {
 /* .card:nth-child(2)::before {
 	background-image: url("https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
 }
-
 .card::nth-child(3)::before {
 	background-image: url("https://images.unsplash.com/photo-1545243424-0ce743321e11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
 }
-
 .card::nth-child(4)::before {
 	background-image: url("https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
 } */
@@ -5020,9 +5041,3 @@ ul.rounded li::before {
     color: white;
     
 }
-
-
-
-
-
-
