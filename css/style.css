@@ -4930,7 +4930,9 @@ ul.rounded li::before {
 	
 	min-height: 24em;
 	max-width: 64em;
-    margin-left: 16vw !important;
+    
+    margin: 0 auto;
+    
     
     
     
@@ -4940,16 +4942,35 @@ ul.rounded li::before {
 
 
 
-@media screen and (max-width: 480px) {
-    .events {
-       margin-left: 7vw !important;
-       
+
+@media screen and (max-width: 767px) {
+    .events{
+        width: 320px;
+        
     }
 
     
 
     .card{
         margin-top: 50px;
+    }
+}
+
+@media (max-width: 990px) and (min-width: 768px) {
+    .events{
+        width: 650px;
+        padding-right: 20px !important;
+        
+        
+    }
+    .card{
+        margin-bottom: 30px;
+        
+        
+    }
+
+    .eve-car{
+      margin-left: 130px;
     }
 }
 
