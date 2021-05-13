@@ -4370,6 +4370,7 @@ ul.rounded li::before {
   height: 6rem;
   margin: 0 50px 100px 0;
   width: 6rem;
+  animation: rotation 2s linear infinite;
 }
 
 .loader-box svg {
@@ -4385,7 +4386,7 @@ ul.rounded li::before {
 
 @keyframes loader-box-fade {
   0% {
-    transform: scale(0.7);
+    transform: scale(0.5);
   }
   40% {
     transform: scale(1);
@@ -4394,7 +4395,16 @@ ul.rounded li::before {
     transform: scale(1);
   }
   100% {
-    transform: scale(0.7);
+    transform: scale(0.5);
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
   }
 }
 
