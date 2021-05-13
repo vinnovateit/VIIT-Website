@@ -1142,8 +1142,22 @@ nav .btn-setting {
 @media only screen and (max-width: 480px) {
     .sm {
         display: block;
+        
+    }
+
+    .rotate{
+        animation: rotation 30s infinite linear;
     }
 }
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
 
 
 /* menu bars */
