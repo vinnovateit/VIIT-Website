@@ -1142,8 +1142,22 @@ nav .btn-setting {
 @media only screen and (max-width: 480px) {
     .sm {
         display: block;
+        
+    }
+
+    .rotate{
+        animation: rotation 30s infinite linear;
     }
 }
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
 
 
 /* menu bars */
@@ -4827,7 +4841,7 @@ ul.rounded li::before {
 :root { --d: 600ms; --e: cubic-bezier(0.19, 1, 0.22, 1) }
 
 .head-mar{
-    margin-left: 200px !important;
+    margin: 0 auto;
 }
 
 
@@ -4932,9 +4946,7 @@ ul.rounded li::before {
        
     }
 
-    .head-mar{
-        margin-left: 5vw !important;
-    }
+    
 
     .card{
         margin-top: 50px;
