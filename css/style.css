@@ -4844,7 +4844,7 @@ ul.rounded li::before {
 :root { --d: 600ms; --e: cubic-bezier(0.19, 1, 0.22, 1) }
 
 .head-mar{
-    margin-left: 200px !important;
+    margin: 0 auto;
 }
 
 
@@ -4949,9 +4949,7 @@ ul.rounded li::before {
        
     }
 
-    .head-mar{
-        margin-left: 5vw !important;
-    }
+    
 
     .card{
         margin-top: 50px;
