@@ -4847,6 +4847,9 @@ ul.rounded li::before {
         top: 46%;
         left: 46%;
     }
+    .cbp img {
+        padding:3px 15px;
+    }
     .h1,
     .h2,
     .h3,
