@@ -1148,7 +1148,25 @@ nav .btn-setting {
     .tp-mask-wrap{
         margin: 30px 0px;
     }
+    .rotate{
+        animation: rotation 30s infinite linear;
+    }
 }
+        
+
+
+
+
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
 
 /* menu bars */
 
@@ -2462,21 +2480,18 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 }
 
 .ayush{
-    background-image: url("/img/ayushbansal@2x\ _2.png");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/ayushbansal_2x__2_e6tH3Q_A8f.png");
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
-    
-
-    
 }
 
 
 
 
 .sriesh{
-    background-image: url("/img/srieshagrawal@2x.png");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/srieshagrawal_2x_mcAhuzgdAH.png");
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
@@ -2484,14 +2499,14 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 }
 
 .saransh{
-    background-image: url("/img/saranshbhachawat@2x.png");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/saranshbhachawat_2x_-qSuwU8Zc.png");
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .sankar{
-    background-image: url("/img/sankarkvs@2x.png");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/sankarkvs_2x_2-5lcBO5H.png");
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
@@ -2499,7 +2514,7 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 }
 
 .ritik{
-    background-image: url("/img/ritikkumar@2x.png");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/ritikkumar_2x_glN_kHcmX.png");
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
@@ -2507,7 +2522,7 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 }
 
 .aayush{
-    background-image: url("/img/aayushchodvadiya@2x.png");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/aayushchodvadiya_2x_FqhsjgZm68.png");
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
@@ -2515,7 +2530,7 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 }
 
 .akash{
-    background-image: url("/img/akashshukla.png");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/akashshukla_-t417s97Y.png");
     background-position: 30% 50%;
     height: 285px;
     background-repeat: no-repeat;
@@ -2523,7 +2538,7 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 }
 
 .shivam{
-    background-image: url("/img/shivamchokhani.png");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/shivamchokhani_HTZfkwQH3.png");
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
@@ -2531,14 +2546,14 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 }
 
 .eashwar{
-    background-image: url("/img/eashwarshriram@2x.png");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/eashwarshriram_2x_QmtEcDzWxH.png");
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .sanskriti{
-    background-image: url("/img/sanskritinegi@2x.png");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/sanskritinegi_2x_WOhaHZ9FP.png");
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
@@ -2546,7 +2561,7 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 }
 
 .dhruv{
-    background-image: url("/img/dhruvvaidh@2x.png");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/dhruvvaidh_2x_aVUbSWpFJV.png");
     background-position: 50% 45%;
     height: 285px;
     background-repeat: no-repeat;
@@ -2554,14 +2569,14 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 }
 
 .sejal{
-    background-image: url("/img/sejalbharthi@2x.png");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/sejalbharthi_2x_D00KBoGFt.png");
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .muskan{
-    background-image: url("/img/muskanagarwal.png");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/muskanagarwal_pppWBTTwh.png");
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
@@ -2569,7 +2584,7 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 }
 
 .dishit{
-    background-image: url("/img/dishitduggar@2x.png");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/dishitduggar_2x_FISmIPD4m.png");
     background-position: -30% 35%;
     height: 285px;
     background-repeat: no-repeat;
@@ -2577,14 +2592,14 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 }
 
 .akashg{
-    background-image: url("/img/akashgupta.png");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/akashgupta_lCuG8tT986.png");
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .prajjwal{
-    background-image: url("/img/prajjwalgupta@2x.png");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/prajjwalgupta_2x_MU1Pp7HBz.png");
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
@@ -2594,89 +2609,89 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 
 /* ex-board */
 .kshitij{
-    background-image: url("/img/kshitij-dhyani.jpg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/kshitij-dhyani_wSR_hDdE8.jpg");
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
 .arpit{
-    background-image: url("/img/arpit.jpeg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/arpit_ReqBlwuCa.jpeg");
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
 .nitin{
-    background-image: url("/img/nitin.jpeg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/nitin_v0hq4OV1k.jpeg");
     background-position: 90% 35%;
     background-repeat: no-repeat;
 }
 .muskant{
-    background-image: url("/img/muskan-t.jpeg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/muskan-t_cjEMZIJsO.jpeg");
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
 .muskans{
-    background-image: url("/img/muskan-s.jpeg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/muskan-s_yw4FTsid2z.jpeg");
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
 .nisarga{
-    background-image: url("/img/nisarga.jpeg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/nisarga_PIUS093Jf.jpeg");
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 .riitk{
-    background-image: url("/img/ritik.jpeg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/ritik_So5s604HjN.jpeg");
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
 .sameer{
-    background-image: url("/img/sammy.jpeg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/sammy_2speFCcVU.jpeg");
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
 .karan{
-    background-image: url("/img/karan.jpeg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/karan_7vcM-ArPz3.jpeg");
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
 /* advisory */
 .sachin{
-    background-image: url("/img/sachin-hiriyanna.jpg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/sachin-hiriyanna_LK3eSUFI8.jpg");
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
 .sulabh{
-    background-image: url("/img/sulabh-agarwal.jpg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/sulabh-agarwal_cUIzeGRAd.jpg");
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
 .meet{
-    background-image: url("/img/meet-shukla.jpg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/meet-shukla_cR-JxzcZV.jpg");
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 .shreya{
-    background-image: url("/img/shreya-anand.png");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/shreya-anand_cjnAm6Hoh.png");
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
 .apoorv{
-    background-image: url("/img/apoorv-bandi.jpg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/apoorv-bandi_IZ1HmcZlY.jpg");
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
 .vinit{
-    background-image: url("/img/vinit-shahdeo.jpg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/vinit-shahdeo_bVyJMuSF3.jpg");
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
@@ -4834,7 +4849,7 @@ ul.rounded li::before {
 :root { --d: 600ms; --e: cubic-bezier(0.19, 1, 0.22, 1) }
 
 .head-mar{
-    margin-left: 200px !important;
+    margin: 0 auto;
 }
 
 
@@ -4923,7 +4938,9 @@ ul.rounded li::before {
 	
 	min-height: 24em;
 	max-width: 64em;
-    margin-left: 16vw !important;
+    
+    margin: 0 auto;
+    
     
     
     
@@ -4933,18 +4950,35 @@ ul.rounded li::before {
 
 
 
-@media screen and (max-width: 480px) {
-    .events {
-       margin-left: 7vw !important;
-       
+
+@media screen and (max-width: 767px) {
+    .events{
+        width: 320px;
+        
     }
 
-    .head-mar{
-        margin-left: 5vw !important;
-    }
+    
 
     .card{
         margin-top: 50px;
+    }
+}
+
+@media (max-width: 990px) and (min-width: 768px) {
+    .events{
+        width: 650px;
+        padding-right: 20px !important;
+        
+        
+    }
+    .card{
+        margin-bottom: 30px;
+        
+        
+    }
+
+    .eve-car{
+      margin-left: 130px;
     }
 }
 
@@ -4977,12 +5011,12 @@ ul.rounded li::before {
 }
 
 .card-1{
-	background-image: url("../img/vincode.jpeg");
+	background-image: url("https://ik.imagekit.io/xlbzk26wac/images/vincode_PRjBIm2kB.jpeg");
     background-size: cover;
 }
 
 .card-2{
-	background-image: url("../img/vinprep.JPG");
+	background-image: url("https://ik.imagekit.io/xlbzk26wac/images/vinprep_I4wAI0kVdD.JPG");
     background-size: cover;
 }
 .card-3{
