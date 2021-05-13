@@ -113,8 +113,6 @@ h2 {
     font-size: 2.5rem;
 }
 
-.github-bg-hvr {}
-
 p {
     margin: 0;
     padding: 0;
@@ -854,7 +852,7 @@ button:focus {
     display: inline-block;
     font-weight: 400;
     line-height: 25px;
-    font-size: medium !important;   
+    font-size: medium !important;
     text-transform: capitalize;
     text-align: center;
     -webkit-border-radius: 36px;
@@ -1130,40 +1128,30 @@ nav .btn-setting {
     display: none;
 }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 480px) {
-=======
-
 @media only screen and (max-width: 750px) {
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     .sm {
         display: block;
         z-index: 10;
     }
 }
 
-@media only screen and (max-width: 600px){
-    .tp-mask-wrap{
+@media only screen and (max-width: 600px) {
+    .tp-mask-wrap {
         margin: 30px 0px;
     }
-    .rotate{
+    .rotate {
         animation: rotation 30s infinite linear;
     }
 }
-        
-
-
-
-
 
 @keyframes rotation {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     to {
-      transform: rotate(359deg);
+        transform: rotate(359deg);
     }
-  }
+}
 
 
 /* menu bars */
@@ -2498,211 +2486,128 @@ div.tab-frame input:nth-of-type(3):checked~.tab:nth-of-type(3) {
     text-align: center;
 }
 
-<<<<<<< HEAD
 .ayush {
-    background-image: url("/img/ayushbansal@2x\ _2.png");
-=======
-.ayush{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/ayushbansal_2x__2_e6tH3Q_A8f.png");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-<<<<<<< HEAD
 .sriesh {
-    background-image: url("/img/srieshagrawal@2x.png");
-=======
-
-
-
-.sriesh{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/srieshagrawal_2x_mcAhuzgdAH.png");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-<<<<<<< HEAD
 .saransh {
-    background-image: url("/img/saranshbhachawat@2x.png");
-=======
-.saransh{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/saranshbhachawat_2x_-qSuwU8Zc.png");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-<<<<<<< HEAD
 
 .sankar {
-    background-image: url("/img/sankarkvs@2x.png");
-=======
-.sankar{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/sankarkvs_2x_2-5lcBO5H.png");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-<<<<<<< HEAD
 .ritik {
-    background-image: url("/img/ritikkumar@2x.png");
-=======
-.ritik{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/ritikkumar_2x_glN_kHcmX.png");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-<<<<<<< HEAD
 .aayush {
-    background-image: url("/img/aayushchodvadiya@2x.png");
-=======
-.aayush{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/aayushchodvadiya_2x_FqhsjgZm68.png");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-<<<<<<< HEAD
 .akash {
-    background-image: url("/img/akashshukla.png");
-=======
-.akash{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/akashshukla_-t417s97Y.png");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 30% 50%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-<<<<<<< HEAD
 .shivam {
-    background-image: url("/img/shivamchokhani.png");
-=======
-.shivam{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/shivamchokhani_HTZfkwQH3.png");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-<<<<<<< HEAD
 .eashwar {
-    background-image: url("/img/eashwarshriram@2x.png");
-=======
-.eashwar{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/eashwarshriram_2x_QmtEcDzWxH.png");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-<<<<<<< HEAD
 
 .sanskriti {
-    background-image: url("/img/sanskritinegi@2x.jpeg");
-=======
-.sanskriti{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/sanskritinegi_2x_WOhaHZ9FP.png");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-<<<<<<< HEAD
 .dhruv {
-    background-image: url("/img/dhruvvaidh@2x.png");
-=======
-.dhruv{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/dhruvvaidh_2x_aVUbSWpFJV.png");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 45%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-<<<<<<< HEAD
 .sejal {
-    background-image: url("/img/sejalbharthi@2x.png");
-=======
-.sejal{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/sejalbharthi_2x_D00KBoGFt.png");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-<<<<<<< HEAD
 
 .muskan {
-    background-image: url("/img/muskanagarwal.png");
-=======
-.muskan{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/muskanagarwal_pppWBTTwh.png");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-<<<<<<< HEAD
 .dishit {
-    background-image: url("/img/dishitduggar@2x.png");
-=======
-.dishit{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/dishitduggar_2x_FISmIPD4m.png");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: -30% 35%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-<<<<<<< HEAD
 .akashg {
-    background-image: url("/img/akashgupta.png");
-=======
-.akashg{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/akashgupta_lCuG8tT986.png");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-<<<<<<< HEAD
 
 .prajjwal {
-    background-image: url("/img/prajjwalgupta@2x.png");
-=======
-.prajjwal{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/prajjwalgupta_2x_MU1Pp7HBz.png");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
@@ -2711,171 +2616,96 @@ div.tab-frame input:nth-of-type(3):checked~.tab:nth-of-type(3) {
 
 
 /* ex-board */
-<<<<<<< HEAD
 
 .kshitij {
-    background-image: url("/img/kshitij-dhyani.jpg");
-=======
-.kshitij{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/kshitij-dhyani_wSR_hDdE8.jpg");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
-<<<<<<< HEAD
 .arpit {
-    background-image: url("/img/arpit.jpeg");
-=======
-.arpit{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/arpit_ReqBlwuCa.jpeg");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
-<<<<<<< HEAD
 .nitin {
-    background-image: url("/img/nitin.jpeg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/nitin_v0hq4OV1k.jpeg");
     background-position: 90% 35%;
     background-repeat: no-repeat;
 }
 
 .muskant {
-    background-image: url("/img/muskan-t.jpeg");
-=======
-.nitin{
-    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/nitin_v0hq4OV1k.jpeg");
-    background-position: 90% 35%;
-    background-repeat: no-repeat;
-}
-.muskant{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/muskan-t_cjEMZIJsO.jpeg");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
-<<<<<<< HEAD
 .muskans {
-    background-image: url("/img/muskan-s.jpeg");
-=======
-.muskans{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/muskan-s_yw4FTsid2z.jpeg");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
-<<<<<<< HEAD
 .nisarga {
-    background-image: url("/img/nisarga.jpeg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/nisarga_PIUS093Jf.jpeg");
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
 .riitk {
-    background-image: url("/img/ritik.jpeg");
-=======
-.nisarga{
-    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/nisarga_PIUS093Jf.jpeg");
-    background-position: 50% 35%;
-    background-repeat: no-repeat;
-}
-.riitk{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/ritik_So5s604HjN.jpeg");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
-<<<<<<< HEAD
 .sameer {
-    background-image: url("/img/sammy.jpeg");
-=======
-.sameer{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/sammy_2speFCcVU.jpeg");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
-<<<<<<< HEAD
 .karan {
-    background-image: url("/img/karan.jpeg");
-=======
-.karan{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/karan_7vcM-ArPz3.jpeg");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
 
 /* advisory */
-<<<<<<< HEAD
 
 .sachin {
-    background-image: url("/img/sachin-hiriyanna.jpg");
-=======
-.sachin{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/sachin-hiriyanna_LK3eSUFI8.jpg");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
-<<<<<<< HEAD
 .sulabh {
-    background-image: url("/img/sulabh-agarwal.jpg");
-=======
-.sulabh{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/sulabh-agarwal_cUIzeGRAd.jpg");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
-<<<<<<< HEAD
 .meet {
-    background-image: url("/img/meet-shukla.jpg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/meet-shukla_cR-JxzcZV.jpg");
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
 .shreya {
-    background-image: url("/img/shreya-anand.png");
-=======
-.meet{
-    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/meet-shukla_cR-JxzcZV.jpg");
-    background-position: 50% 35%;
-    background-repeat: no-repeat;
-}
-.shreya{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/shreya-anand_cjnAm6Hoh.png");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
-<<<<<<< HEAD
 .apoorv {
-    background-image: url("/img/apoorv-bandi.jpg");
-=======
-.apoorv{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/apoorv-bandi_IZ1HmcZlY.jpg");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
 
-<<<<<<< HEAD
 .vinit {
-    background-image: url("/img/vinit-shahdeo.jpg");
-=======
-.vinit{
     background-image: url("https://ik.imagekit.io/xlbzk26wac/images/vinit-shahdeo_bVyJMuSF3.jpg");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
     background-position: 50% 35%;
     background-repeat: no-repeat;
 }
@@ -4677,6 +4507,9 @@ ul.rounded li::before {
     .team-classic-content {
         padding: 59px 20px;
     }
+    .mar {
+        margin-left: 18rem;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -4685,9 +4518,6 @@ ul.rounded li::before {
     }
     .about-img {
         height: 480px;
-    }
-    .team-classic-content {
-        /* padding: 59px 20px; */
     }
     .mar {
         margin-left: 18rem;
@@ -5062,15 +4892,8 @@ ul.rounded li::before {
 
 /* Events */
 
-<<<<<<< HEAD
-*,
- ::before,
- ::after {
-    box-sizing: border-box
-=======
-.head-mar{
+.head-mar {
     margin: 0 auto;
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
 }
 
 :root {
@@ -5153,70 +4976,31 @@ ul.rounded li::before {
     display: block;
 }
 
-<<<<<<< HEAD
 .events {
     min-height: 24em;
     max-width: 64em;
-    margin-left: 16vw !important;
-}
-
-@media screen and (max-width: 480px) {
-    .events {
-        margin-left: 7vw !important;
-    }
-    .head-mar {
-        margin-left: 5vw !important;
-    }
-    .card {
-=======
-
-.events{
-	
-	
-	min-height: 24em;
-	max-width: 64em;
-    
     margin: 0 auto;
-    
-    
-    
-    
 }
-
-
-
-
-
 
 @media screen and (max-width: 767px) {
-    .events{
+    .events {
         width: 320px;
-        
     }
-
-    
-
-    .card{
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
+    .card {
         margin-top: 50px;
     }
 }
 
 @media (max-width: 990px) and (min-width: 768px) {
-    .events{
+    .events {
         width: 650px;
         padding-right: 20px !important;
-        
-        
     }
-    .card{
+    .card {
         margin-bottom: 30px;
-        
-        
     }
-
-    .eve-car{
-      margin-left: 130px;
+    .eve-car {
+        margin-left: 130px;
     }
 }
 
@@ -5237,7 +5021,6 @@ ul.rounded li::before {
 }
 
 .card::before {
-<<<<<<< HEAD
     content: "";
     display: block;
     position: absolute;
@@ -5249,31 +5032,12 @@ ul.rounded li::before {
 }
 
 .card-1 {
-    background-image: url("../img/vincode.jpeg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/vincode_PRjBIm2kB.jpeg");
     background-size: cover;
 }
 
 .card-2 {
-    background-image: url("../img/vinprep.JPG");
-=======
-	content: "";
-	display: block;
-	position: absolute;
-	height: 110%;
-	top: 0;
-	left: 0;
-	width: 100%;
-	transform: translateY(-4%);
-}
-
-.card-1{
-	background-image: url("https://ik.imagekit.io/xlbzk26wac/images/vincode_PRjBIm2kB.jpeg");
-    background-size: cover;
-}
-
-.card-2{
-	background-image: url("https://ik.imagekit.io/xlbzk26wac/images/vinprep_I4wAI0kVdD.JPG");
->>>>>>> efe95952c0dc3e1c629e423308edb7e71c11f14d
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/vinprep_I4wAI0kVdD.JPG");
     background-size: cover;
 }
 
