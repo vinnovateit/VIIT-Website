@@ -4930,7 +4930,9 @@ ul.rounded li::before {
 	
 	min-height: 24em;
 	max-width: 64em;
-    margin-left: 16vw !important;
+    
+    margin: 0 auto;
+    
     
     
     
@@ -4940,10 +4942,11 @@ ul.rounded li::before {
 
 
 
+
 @media screen and (max-width: 480px) {
-    .events {
-       margin-left: 7vw !important;
-       
+    .events{
+        width: 320px;
+        
     }
 
     
