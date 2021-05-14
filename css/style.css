@@ -245,11 +245,11 @@ i::after {
 
 ::-webkit-scrollbar {
   width: 7px;
-  background-color: #f1970f;
+  background-color: #fdc62c;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #f1970f;
+  background: #fdc62c;
 }
 
 .pt-10px {
@@ -473,6 +473,10 @@ i::after {
 .half-section {
   position: relative;
   overflow: hidden;
+}
+
+.mar-bot{
+  padding-bottom: -2000px !important;
 }
 
 .content-setting {
@@ -1314,6 +1318,7 @@ nav .btn-setting {
 .header-appear .navbar .logo-default,
 .navbar .logo-scrolled {
   display: none;
+
 }
 
 .header-appear .navbar .logo-scrolled,
@@ -1321,12 +1326,29 @@ nav .btn-setting {
   display: inline-block;
 }
 
-@media screen and (max-width: 480px) {
+.logo-size{
+  width: auto;
+  height:70px !important;
+  margin-bottom:12px;
+  padding: 0;
+}
+
+@media screen and (min-width: 1016px) {
+ 
+  .hide-logo-lg{
+    display:none;
+  }
+}
+@media screen and (max-width: 1014px) {
   .logo-default,
   .logo-scrolled {
     height: 20%;
     width: 55%;
     margin-left: 0px !important;
+  }
+
+  .hide-logo{
+    display:none;
   }
 }
 
@@ -2516,7 +2538,7 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3) {
 }
 
 .sankar {
-  background-image: url("https://ik.imagekit.io/xlbzk26wac/compressed_images/sankarkvs_2x-compressed_Qfjs5A8uH.jpg");
+  background-image: url("https://ik.imagekit.io/xlbzk26wac/compressed_images/sankar-compressed_W9kIgTq__.jpg");
   background-position: 50% 35%;
   height: 285px;
   background-repeat: no-repeat;
@@ -2540,7 +2562,7 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3) {
 }
 
 .akash {
-  background-image: url("https://ik.imagekit.io/xlbzk26wac/compressed_images/akashshukla-compressed_J2NULK9A6.jpg");
+  background-image: url("https://ik.imagekit.io/xlbzk26wac/compressed_images/akashs-compressed_glIKTgMOO.jpg");
   background-position: 30% 50%;
   height: 285px;
   background-repeat: no-repeat;
