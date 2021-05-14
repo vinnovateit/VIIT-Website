@@ -1333,13 +1333,13 @@ nav .btn-setting {
   padding: 0;
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 1016px) {
  
   .hide-logo-lg{
     display:none;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1014px) {
   .logo-default,
   .logo-scrolled {
     height: 20%;
