@@ -683,6 +683,8 @@ a.image {
   color: #212622;
 }
 
+
+
 .color-grey {
   color: #535353;
 }
@@ -5078,4 +5080,12 @@ ul.rounded li::before {
 .heading2,
 .heading3 {
   color: white;
+}
+
+.onhov:hover{
+    color:#5ac1d6 !important ;
+}
+
+.onhov{
+    text-decoration: underline !important;
 }
