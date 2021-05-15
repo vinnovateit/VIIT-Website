@@ -2654,6 +2654,7 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3) {
   background-image: url("https://ik.imagekit.io/xlbzk26wac/compressed_images/arpit-compressed_7xiEu5LoW.jpg");
   background-position: 50% 35%;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nitin {
@@ -4879,6 +4880,55 @@ ul.rounded li::before {
     margin-left: 2rem;
     /* margin-left: 8rem; */
   }
+}
+
+@media screen and (min-width: 1200px) {
+  .k-left{
+    margin-left: 285px !important;
+  }
+
+  .a-right{
+    margin-right: 285px !important;
+  }
+
+}
+
+
+@media screen and (max-width: 1199px) {
+  .k-left{
+    margin-bottom: -0.7rem !important;
+  }
+
+  
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .k-left{
+    margin-bottom: 0.6rem !important;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 575px)  {
+  .k-left{
+    margin-bottom: 1.7rem !important;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 308px)  {
+  .k-left{
+    margin-bottom: 3.5rem !important;
+  }
+
+  
+
 }
 
 /* Events */
