@@ -2647,6 +2647,7 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3) {
   background-image: url("https://ik.imagekit.io/xlbzk26wac/compressed_images/kshitij-dhyani-compressed_jO-qnbaUN.jpg");
   background-position: 50% 35%;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .arpit {
@@ -2699,15 +2700,17 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3) {
 
 /* advisory */
 
-.sachin {
+/* .sachin {
   background-image: url("https://ik.imagekit.io/xlbzk26wac/compressed_images/sachin-hiriyanna-compressed_eezWU2DW_.jpg");
   background-position: 50% 35%;
   background-repeat: no-repeat;
-}
+} */
 
-.sulabh {
-  background-image: url("https://ik.imagekit.io/xlbzk26wac/compressed_images/sulabh-agarwal-compressed_sczXSYF6v.jpg");
+.sahaj {
+  background-image: url("https://ik.imagekit.io/xlbzk26wac/compressed_images/sahaj_aAbt8C6lhJ.jpeg");
+  background-size: cover;
   background-position: 50% 35%;
+  height: 285px;
   background-repeat: no-repeat;
 }
 
@@ -2715,24 +2718,31 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3) {
   background-image: url("https://ik.imagekit.io/xlbzk26wac/compressed_images/meet-shukla-compressed_mMvpPaU5E.jpg");
   background-position: 50% 35%;
   background-repeat: no-repeat;
+  background-size: cover;
+  height: 285px;
 }
 
-.shreya {
+/* .shreya {
   background-image: url("https://ik.imagekit.io/xlbzk26wac/compressed_images/shreya-anand-compressed_qiVH2AvRF.jpg");
   background-position: 50% 35%;
   background-repeat: no-repeat;
-}
+} */
 
-.apoorv {
-  background-image: url("https://ik.imagekit.io/xlbzk26wac/compressed_images/apoorv-bandi-compressed_TJw0KDv7V.jpg");
+.roshan {
+  background-image: url("https://ik.imagekit.io/xlbzk26wac/compressed_images/roshan_KG3a3Yu4I.jpeg");
   background-position: 50% 35%;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  height: 285px;
 }
 
 .vinit {
   background-image: url("https://ik.imagekit.io/xlbzk26wac/compressed_images/vinit-shahdeo-compressed_9oMr5y2ym.jpg");
   background-position: 50% 35%;
   background-repeat: no-repeat;
+  background-size: cover;
+  height: 285px;
 }
 
 .mid {
@@ -4807,6 +4817,9 @@ ul.rounded li::before {
   .nitin {
     margin-right: 11rem;
   }
+  .mar {
+    margin-left: 5rem;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -4850,9 +4863,7 @@ ul.rounded li::before {
   .nitin {
     margin-right: 8rem;
   }
-  .mar {
-    margin-left: 5rem;
-  }
+
 }
 
 @media screen and (max-width: 480px) {
