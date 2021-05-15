@@ -4817,6 +4817,9 @@ ul.rounded li::before {
   .nitin {
     margin-right: 11rem;
   }
+  .mar {
+    margin-left: 5rem;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -4860,9 +4863,7 @@ ul.rounded li::before {
   .nitin {
     margin-right: 8rem;
   }
-  .mar {
-    margin-left: 5rem;
-  }
+
 }
 
 @media screen and (max-width: 480px) {
