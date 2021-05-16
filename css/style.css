@@ -1123,6 +1123,10 @@ nav .btn-setting {
     color: #db4437 !important;
 }
 
+.github-text-hvr{
+    color: #000000 !important;
+}
+
 
 /* ===================================
     Header & Navigation
@@ -5015,7 +5019,6 @@ ul.rounded li::before {
 
 
   
-
 
 
 /* Events */
