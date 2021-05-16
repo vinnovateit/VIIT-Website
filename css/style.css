@@ -4972,6 +4972,51 @@ ul.rounded li::before {
     }
 }
 
+@media screen and (min-width: 1200px) {
+  .k-left{
+    margin-left: 286px !important;
+  }
+
+  .a-right{
+    margin-right: 286px !important;
+  }
+
+}
+
+
+@media screen and (max-width: 1199px) {
+  .k-left{
+    margin-bottom: 0.1rem !important;
+  }
+
+  
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .k-left{
+    margin-bottom: 0.2rem !important;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 575px)  {
+  .k-left{
+    margin-bottom: 0.2rem !important;
+  }
+
+  
+
+}
+
+
+
+  
+
+
 
 /* Events */
 
