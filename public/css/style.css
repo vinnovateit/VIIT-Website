@@ -1123,6 +1123,10 @@ nav .btn-setting {
     color: #db4437 !important;
 }
 
+.github-text-hvr{
+    color: #000000 !important;
+}
+
 
 /* ===================================
     Header & Navigation
@@ -4972,6 +4976,50 @@ ul.rounded li::before {
     }
 }
 
+@media screen and (min-width: 1200px) {
+  .k-left{
+    margin-left: 286px !important;
+  }
+
+  .a-right{
+    margin-right: 286px !important;
+  }
+
+}
+
+
+@media screen and (max-width: 1199px) {
+  .k-left{
+    margin-bottom: 0.1rem !important;
+  }
+
+  
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .k-left{
+    margin-bottom: 0.2rem !important;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 575px)  {
+  .k-left{
+    margin-bottom: 0.2rem !important;
+  }
+
+  
+
+}
+
+
+
+  
+
 
 /* Events */
 
@@ -5128,7 +5176,7 @@ ul.rounded li::before {
 }
 
 .card-3 {
-    background-image: url("https://vinnovateit.com/images/vinhack.jpg");
+    background-image: url("https://ik.imagekit.io/xlbzk26wac/images/vinhack_yd-zV3GPr.jpg");
 }
 
 
