@@ -5246,3 +5246,18 @@ ul.rounded li::before {
 .onhov {
     text-decoration: underline !important;
 }
+
+@media screen and (min-width: 992px) {
+    .ui-mar{
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    
+
+    .cc-mar{
+        margin-left: 10rem;
+    }
+}
+
