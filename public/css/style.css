@@ -3939,8 +3939,8 @@ footer.bg-black2 {
     box-shadow: 0 0 15px 30px #1da1f2 inset;
 }
 
-.footer-icons li a.envelope:hover,
-.footer-icons li a.envelope:focus {
+.footer-icons li a.youtube:hover,
+.footer-icons li a.youtube:focus {
     -webkit-box-shadow: 0 0 15px 30px #db4437 inset;
     box-shadow: 0 0 15px 30px #db4437 inset;
 }
@@ -4908,7 +4908,7 @@ ul.rounded li::before {
         margin-right: 8rem;
     }
     .nitin {
-        margin-right: 11rem;
+        margin-right: 8rem;
     }
     /* .mar {
         text-al
@@ -5246,3 +5246,18 @@ ul.rounded li::before {
 .onhov {
     text-decoration: underline !important;
 }
+
+@media screen and (min-width: 992px) {
+    .ui-mar{
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    
+
+    .cc-mar{
+        margin-left: 10rem;
+    }
+}
+
