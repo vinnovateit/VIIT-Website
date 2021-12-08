@@ -3939,8 +3939,8 @@ footer.bg-black2 {
     box-shadow: 0 0 15px 30px #1da1f2 inset;
 }
 
-.footer-icons li a.envelope:hover,
-.footer-icons li a.envelope:focus {
+.footer-icons li a.youtube:hover,
+.footer-icons li a.youtube:focus {
     -webkit-box-shadow: 0 0 15px 30px #db4437 inset;
     box-shadow: 0 0 15px 30px #db4437 inset;
 }
