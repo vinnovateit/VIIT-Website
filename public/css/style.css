@@ -2546,6 +2546,105 @@ div.tab-frame input:nth-of-type(3):checked~.tab:nth-of-type(3) {
     text-align: center;
 }
 
+/*Current Board*/
+
+.aviral  {
+    background-image: url("https://ik.imagekit.io/vinnovateIT/Current_Board/aviral_dc6XiSqI7.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1655307691185");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.naman {
+    background-image: url("https://ik.imagekit.io/vinnovateIT/Current_Board/naman_5XhtJngsM.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655312985786");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.anurag {
+    background-image: url("https://ik.imagekit.io/vinnovateIT/Current_Board/anurag_7YiXAqwtc.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655313273152");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.arhit{
+    background-image: url("https://ik.imagekit.io/vinnovateIT/Current_Board/arhit_qp6DgbtL7.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1655369454863");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sanket {
+    background-image: url("https://ik.imagekit.io/vinnovateIT/Current_Board/sb1_dgDqUpUkS.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655313273053");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ashish {
+    background-image: url("https://ik.imagekit.io/vinnovateIT/Current_Board/ashish_9qfTn6-3f.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655308100883");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tanmay {
+    background-image: url("https://ik.imagekit.io/vinnovateIT/Current_Board/tanmay_0i4i6mtcd.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1655312727539");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parshva {
+    background-image: url("https://ik.imagekit.io/vinnovateIT/Current_Board/parshva_AREZnwYPS.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1655308530454");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ritodeep {
+    background-image: url("https://ik.imagekit.io/vinnovateIT/Current_Board/ritodeep_YmDjrfEU1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655308646244");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.neha {
+    background-image: url("https://ik.imagekit.io/vinnovateIT/Current_Board/neha_CHIWDxDNz.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1655313599656");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.soham {
+    background-image: url("https://ik.imagekit.io/vinnovateIT/Current_Board/soham_4Gwl6r0OW.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1655314425930");
+    background-position: 50% 45%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kushagra {
+    background-image: url("https://ik.imagekit.io/vinnovateIT/Current_Board/kushagra_St07lpVLn.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655313694719");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Current Board End*/
+
 .ayush {
     background-image: url("https://ik.imagekit.io/xlbzk26wac/compressed_images/ayushbansal_2x__2-compressed_GsnnzyFJY.jpg");
     background-position: 50% 35%;
