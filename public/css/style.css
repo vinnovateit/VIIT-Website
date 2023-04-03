@@ -2741,6 +2741,7 @@ div.tab-frame input:nth-of-type(3):checked~.tab:nth-of-type(3) {
     background-size: cover;
 }
 
+
 .muskan {
     background-image: url("https://ik.imagekit.io/xlbzk26wac/compressed_images/muskanagarwal-compressed_ww0jWWLNW.jpg");
     background-position: 50% 35%;
@@ -2777,7 +2778,7 @@ div.tab-frame input:nth-of-type(3):checked~.tab:nth-of-type(3) {
 /* ex-board */
 
 .kshitij {
-    background-image: url("/img/kshitij-dhyani.jpg");
+    background-image: url("https://kshitijdhyani.com/assets/img/leader.jpg");
     background-position: 50% 35%;
     background-repeat: no-repeat;
     height: 285px;
@@ -2793,7 +2794,7 @@ div.tab-frame input:nth-of-type(3):checked~.tab:nth-of-type(3) {
 }
 
 .nitin {
-    background-image: url("/img/nitin.jpeg");
+    background-image: url("public/img/nitin.jpeg");
     background-position: 100% 35%;
     background-repeat: no-repeat;
     height: 285px;
@@ -2875,7 +2876,7 @@ div.tab-frame input:nth-of-type(3):checked~.tab:nth-of-type(3) {
 }
 
 .kshitij-a {
-    background-image: url("/img/kshitij-dhyani.jpg");
+    background-image: url("");
     background-position: 50% 35%;
     background-repeat: no-repeat;
     height: 285px;
