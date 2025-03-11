@@ -2545,6 +2545,64 @@ div.tab-frame input:nth-of-type(3):checked~.tab:nth-of-type(3) {
     box-shadow: 0 10px 5px -10px #b7b7b7;
     text-align: center;
 }
+
+/* New Board 2024 */
+.syro{
+    background-image: url("https://ik.imagekit.io/ofkktwesj/syro.jpg?updatedAt=1741722764826");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.arjan{
+    background-image: url("https://ik.imagekit.io/ofkktwesj/arjan.jpg?updatedAt=1741722765766");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.aniruddh{
+    background-image: url("https://ik.imagekit.io/ofkktwesj/aniruddh.HEIC?updatedAt=1741722259078");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tanmaym{
+    background-image: url("https://ik.imagekit.io/ofkktwesj/tanmay.jpg?updatedAt=1741726375208");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ayushk1{
+    background-image: url("https://ik.imagekit.io/ofkktwesj/ayush.jpeg?updatedAt=1741726374351");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.janvi{
+    background-image: url("https://ik.imagekit.io/ofkktwesj/janvi2.jpg?updatedAt=1741724233369");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mihir{
+    background-image: url("https://ik.imagekit.io/ofkktwesj/mihir2.jpg?updatedAt=1741725294800");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*Current board 2023*/
 
 .anusha  {
@@ -3083,8 +3141,18 @@ div.tab-frame input:nth-of-type(3):checked~.tab:nth-of-type(3) {
     height: 285px;
     margin-bottom: 0.5rem;
     margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Horizontal centering */
+    justify-content: center; /* Vertical centering */
+    text-align: center;
 }
 
+.bottom-cell{
+   display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; 
+}
 
 /* @media screen and (max-width: 480px) {
     .ayush,.team-col2,.team-col,.col-lg-6,.col-xl-3,.col-sm-12,.p-0,.row,.w3-animate-opacity  {
