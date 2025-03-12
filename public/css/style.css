@@ -2565,7 +2565,7 @@ div.tab-frame input:nth-of-type(3):checked~.tab:nth-of-type(3) {
 }
 
 .aniruddh{
-    background-image: url("https://ik.imagekit.io/ofkktwesj/aniruddh.HEIC?updatedAt=1741722259078");
+    background-image: url("https://ik.imagekit.io/ofkktwesj/aniruddh2.jpg?updatedAt=1741762753923");
     background-position: 50% 35%;
     height: 285px;
     background-repeat: no-repeat;
@@ -2588,6 +2588,29 @@ div.tab-frame input:nth-of-type(3):checked~.tab:nth-of-type(3) {
     background-size: cover;
 }
 
+.raunak{
+    background-image: url("https://ik.imagekit.io/ofkktwesj/raunak.png?updatedAt=1741762753544");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.giri{
+    background-image: url("https://ik.imagekit.io/ofkktwesj/giri.png?updatedAt=1741762753658");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ayushk2{
+    background-image: url("https://ik.imagekit.io/ofkktwesj/ayush.jpeg?updatedAt=1741726374351");
+    background-position: 50% 35%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .janvi{
     background-image: url("https://ik.imagekit.io/ofkktwesj/janvi2.jpg?updatedAt=1741724233369");
     background-position: 50% 35%;
